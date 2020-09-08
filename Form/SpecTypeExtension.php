@@ -39,7 +39,7 @@ class SpecTypeExtension extends AbstractTypeExtension
     /**
      * {@inheritDoc}
      */
-    public function getExtendedTypes()
+    public static function getExtendedTypes()
     {
         return [FormType::class];
     }
